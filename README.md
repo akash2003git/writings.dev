@@ -1,4 +1,4 @@
 # writings.dev
 Simple frontend for a personal blog site
 
-![Screenshot](./images/logo.png "Project Screenshot")
+![Screenshot](Screenshot 2024-10-20 at 23-21-12 writings.dev.png "Project Screenshot")
