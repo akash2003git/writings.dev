@@ -24,10 +24,10 @@ body {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #a9b1d6;
+}
 
-    >a {
-        color: #a9b1d6;
-    }
+.navbar a {
+    color: #a9b1d6;
 }
 
 .close-btn {
@@ -109,11 +109,11 @@ body {
 
 .navbar ul {
     display: flex;
+}
 
-    >li a {
-        margin: 0 .5rem;
-        color: #a9b1d6;
-    }
+.navbar ul li a {
+    margin: 0 .5rem;
+    color: #a9b1d6;
 }
 
 .navbar ul li a:hover {
@@ -188,7 +188,7 @@ body {
 .hero img {
     flex: 1;
     object-fit: cover;
-    width: 100%;
+    width: 50%;
     border-radius: 1rem;
 }
 
@@ -312,6 +312,10 @@ body {
     .side-btn {
         display: block;
     }
+
+    .hero img {
+        width: 100%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -324,6 +328,10 @@ body {
 
     .hero {
         flex-direction: column;
+    }
+
+    .hero img {
+        width: 100%;
     }
 
 
@@ -340,6 +348,7 @@ body {
     .hero-card .hero-info p {
         font-size: smaller;
     }
+
 }
 
 /* Large devices (desktops, 992px and up) */
